@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>원티드 클론 프로젝트</title>
     <link
       rel="stylesheet"
       href="https://meyerweb.com/eric/tools/css/reset/reset.css"
@@ -12,19 +12,147 @@
       rel="stylesheet"
       href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     /> -->
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
-    />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/card-list.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <!-- 헤더 -->
+    <header class="header">
+      <div class="layout">
+        <!-- 왼쪽 영역 -->
+        <div class="left">
+          <!-- 로고 -->
+          <div class="header-logo">
+            <a href="#" class="header-logo-link">
+              <img src="./images/Wantedlogo.png" alt="로고" />
+            </a>
+          </div>
+          <!-- 메뉴 -->
+          <ul class="header-menu">
+            <li><a href="#">채용</a></li>
+            <li><a href="#">커리어</a></li>
+            <li><a href="#">소셜</a></li>
+            <li><a href="#">이력서</a></li>
+            <li><a href="#">프리랜서</a></li>
+            <li><a href="#">더보기</a></li>
+          </ul>
+        </div>
+        <!-- 오른쪽 영역 -->
+        <div class="right">
+          <!-- 검색 버튼 -->
+          <button id="search">
+            <img src="./images/icon-search.png" alt="검색 이미지" />
+          </button>
+          <a href="#" class="log-in">회원가입/로그인</a>
+          <a href="#" class="service">기업 서비스</a>
+        </div>
+      </div>
+    </header>
+    <!-- 메인 -->
+    <main class="main">
+      <!-- 배너 -->
+      <div class="banner">배너</div>
+      <!-- //Start 메인 메뉴 -->
+      <ul class="main-menu">
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>채용공고</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>이력서 관리</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>커리어 조회</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>지원 현황</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>커리어 코칭</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>다음 커리어 찾기</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>나만의 회사 찾기</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>직군별 연봉</span>
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="./images/Wantedicon.png" alt="" />
+            <span>원티드 포인트</span>
+          </a>
+        </li>
+      </ul>
+      <!-- //End 메인 메뉴 -->
+      <!-- 최신 목록 -->
+      <div class="main-content">
+        <div class="list-new-wrap">
+          <!-- 타이틀 -->
+          <div class="list-title-wrap">
+            <h4 class="list-title">모두가 주목하고 있어요!</h4>
+            <div class="bt">
+              <button class="bt-left">
+                <img src="./images/way-icon.svg" />
+              </button>
+              <button class="bt-right">
+                <img src="./images/way-icon.svg" />
+              </button>
+            </div>
+          </div>
+          <div class="list-thum-wrap">
+            <!-- //Start 게시글 목록 -->
+            <div class="list">
+              <div class="thum">
+                <div class="thum-info">
+                  <span class="money">합격보상금 100만원</span>
+                  <button class="thum-bt">
+                    <img src="./images/bt-icon.svg" />
+                  </button>
+                </div>
+                <div class="thum-img">
+                  <img src="./images/01.webp" alt="썸네일 이미지" />
+                </div>
+                <h5 class="thum-title">백엔드 엔지니어</h5>
+                <ul>
+                  <li>포스타입</li>
+                  <li>서울 강남구∙신입-경력 10년</li>
+                </ul>
+              </div>
+            </div>
+            <!-- //End 게시글 목록 -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- 푸터 -->
     <footer></footer>
   </body>
 </html>
