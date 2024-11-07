@@ -34,8 +34,19 @@
 }
 .header-menu {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
+.header-menu li a {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.header-menu li a img {
+  width: 20px;
+  height: 20px;
+}
+
 .header .right {
   display: flex;
   align-items: center;
@@ -55,13 +66,13 @@
 .log-in {
   padding: 8px 10px;
   color: #06f;
-  border: 1px solid #37383c9c;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   font-size: 13px;
 }
 .service {
   padding: 8px 10px;
-  border: 1px solid #37383c9c;
+  border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   font-size: 13px;
 }
